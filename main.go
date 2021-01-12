@@ -42,8 +42,8 @@ func main(){
 
   START:
     for i := 0; i < x; i++{
-      time.Sleep(time.Minute)
       log.Printf( strconv.Itoa(x-i) )
+      time.Sleep(time.Minute)
     }
 
     log.Println("\a")
